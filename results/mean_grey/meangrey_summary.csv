@@ -1,0 +1,17 @@
+,0
+n_test_crops,216
+max |true fibre CPU - GPU| (pp),7.603759769381213e-06
+CNN on GPU recon (Colab),0.8421214067111542
+CNN on CPU recon (re-simulated),0.8699834081861708
+"Mean-grey, physics constants + GMM void",1.1462999529705211
+"Mean-grey, calibrated on val + GMM void",1.0891009558766773
+"Mean-grey, physics constants + TRUE void (oracle)",1.3845398194260068
+"calibration coefficients a,b,c","[-388.315, 485.3096, 4.3825]"
+gain 1.02: mean-grey calibrated,8.397015770056656
+gain 1.02: CNN,0.8699833552042643
+gain 1.02: max |CNN change| (pp),1.1444091796875e-05
+gain 1.05: mean-grey calibrated,21.40062095359851
+gain 1.05: CNN,0.8699834170164885
+gain 1.05: max |CNN change| (pp),1.1444091796875e-05
+per-parent: CNN better on,7/9
+Wilcoxon p (CNN vs calibrated mean-grey),0.203125

@@ -1,0 +1,10 @@
+phase,CNN vs,n_parents,parents_where_CNN_better,median_MAE_gain_pp,wilcoxon_p
+fibre,"Multi-Otsu, raw",9,9,6.227513209391277,0.00390625
+fibre,"Multi-Otsu, Gaussian-smoothed (sigma=1.0)",9,9,5.092632495117188,0.00390625
+fibre,GMM histogram,9,9,6.026687820985349,0.00390625
+matrix,"Multi-Otsu, raw",9,9,5.496404289021808,0.00390625
+matrix,"Multi-Otsu, Gaussian-smoothed (sigma=1.0)",9,9,5.492011759195965,0.00390625
+matrix,GMM histogram,9,9,5.92407681690035,0.00390625
+void,"Multi-Otsu, raw",9,9,3.9734683145345056,0.00390625
+void,"Multi-Otsu, Gaussian-smoothed (sigma=1.0)",9,9,0.42046875123697913,0.00390625
+void,GMM histogram,9,5,0.07164676335025895,0.359375
